@@ -6,7 +6,7 @@ import sys
 def install(package):
     subprocess.check_call([sys.executable, "-m", "pip", "install", package])
 
-install(torch)
+install('torch')
 
 import glob
 import os
