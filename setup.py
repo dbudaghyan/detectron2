@@ -201,6 +201,8 @@ setup(
         "pycocotools>=2.0.2",  # corresponds to https://github.com/ppwwyyxx/cocoapi
         "future",  # used by caffe2
         "pydot",  # used to save caffe2 SVGs
+        "torch",
+        "torchvision",
     ],
     extras_require={
         "all": [
